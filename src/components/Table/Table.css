@@ -1,0 +1,75 @@
+/** 
+ * TABLE COMPONENT STYLING
+ * 
+ * This file contains the styling for a custom Table component.
+ */
+
+@import '../../styles/tokens.css';
+
+/* General table styling */
+.table-container {
+    overflow-y: auto;
+}
+
+.table-container table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-medium);
+}
+
+.table-container table thead {
+    font-weight: var(--font-weight-bold);
+    text-align: left;
+}
+
+.table-container table th {
+    padding-bottom: var(--spacing-mid);
+    position: sticky;
+    top: 0;
+}
+
+.table-container table td {
+    padding: var(--spacing-standard) 0;
+}
+
+.table-container table tr th:not(:first-child),
+.table-container table tr td:not(:first-child) {
+    padding-right: calc(var(--spacing-mid) + 0.1rem);
+}
+
+.table-container table tr:last-child td {
+    border-bottom: none;
+}
+
+.table-container .included-tr {
+    background-color: var(--color-primary-light);
+}
+
+.table-container .excluded-tr {
+    background-color: var(--color-mid-light);
+}
+
+/* Table light styling */
+.table-light-styling,
+.table-light-styling table th {
+    background-color: var(--color-primary-light);
+    border-bottom: var(--border-dark-thick);
+}
+
+.table-light-styling table {
+    background-color: var(--color-primary-light); 
+}
+
+.table-light-styling table thead {
+    color: var(--color-accent);
+}
+
+.table-light-styling table tbody {
+    color: var(--color-primary-dark);
+}
+
+.table-light-styling table td {
+    border-bottom: var(--border-light-thin);
+}

@@ -1,0 +1,50 @@
+/** 
+ * MULIDROPDOWN COMPONENT STYLING
+ * 
+ * This file contains the styling for a custom MultiDropdown component.
+ */
+
+@import '../../styles/tokens.css';
+
+/* General MultiDropdown styling */
+.multi-dropdown {
+  position: relative;
+}
+  
+.multi-dropdown .dropdown-button {
+  cursor: pointer;
+}
+  
+.multi-dropdown .dropdown-content {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  display: none;  
+  max-height: 60vh;
+  overflow-y: auto;
+
+  background-color: var(--color-primary-light);
+  border: var(--border-light-thick);
+  border-radius: var(--border-rounded);
+  font-size: var(--font-size-medium);
+}
+
+.multi-dropdown .dropdown-content {
+  display: block;
+}
+
+.multi-dropdown label {
+  font-family: var(--font-family-primary);
+  padding-right: var(--spacing-standard);
+}
+
+.multi-dropdown .dropdown-content > div {
+  display: flex;
+  padding: var(--spacing-small) var(--spacing-mid);
+  border-bottom: var(--border-light-thick);;
+}
+
+/* MultiDropdown dark styling */
+.multi-dropdown-dark .dropdown-content {
+  border-color: var(--color-accent);
+}

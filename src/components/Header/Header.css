@@ -1,0 +1,19 @@
+/** 
+ * HEADER COMPONENT
+ * 
+ * This file contains the styling for a custom Header component.
+ */
+
+@import '../../styles/tokens.css';
+
+/* General Header styling */
+header {
+    background-color: var(--color-accent);
+    color: var(--color-primary-light);
+    font-family: var(--font-family-primary);
+    padding: var(--spacing-mid);
+}
+
+header h1 {
+    font-size: var(--font-size-medium);
+}

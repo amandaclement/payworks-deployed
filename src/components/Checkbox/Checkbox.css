@@ -1,0 +1,37 @@
+/** 
+ * CHECKBOX COMPONENT STYLING
+ * 
+ * This file contains the styling for a custom Button component.
+ */
+
+@import '../../styles/tokens.css';
+
+/* General Checkbox styling */
+.checkbox-container {
+    padding: 0 var(--spacing-standard) 0 var(--spacing-small);
+}
+
+.checkbox-container input {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.checkbox-container label {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-small);
+    margin-left: var(--spacing-xsmall);
+}
+
+/* Checkbox dark styling */
+.checkbox-dark input {
+    accent-color: var(--color-accent);
+}
+
+/* Checkbox light styling */
+.checkbox-light input {
+    accent-color: var(--color-mid-dark);
+}
+
+.checkbox-light label {
+    color: var(--color-mid-dark);
+}

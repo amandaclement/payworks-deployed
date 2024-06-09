@@ -1,0 +1,55 @@
+/** 
+ * DESIGN TOKENS
+ * 
+ * This file contains the design tokens for the application, defined as CSS variables.
+ * Ideally, I would import design tokens from json file to be language-agnostic,
+ * but here it's done manually for simplicity, to avoid compiling/converting JSON to CSS.
+ */
+
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    /* Colors */
+    --color-primary-light: #FFFFFF;
+    --color-primary-dark: #000000;
+    --color-mid-light: #EAEAEA;
+    --color-mid-dark: #858585;
+    --color-accent: #5E33D8;
+    --color-accent-light: #8969E2;
+
+    /* Typography */
+    --font-family-primary: 'Karla', sans-serif;
+    --font-weight-normal: 400;
+    --font-weight-semibold: 500;
+    --font-weight-bold: 600;
+    --font-size-small: 0.75rem;
+    --font-size-medium: 0.9rem;
+    --font-size-large: 1.2rem;
+
+    /* Spacing */
+    --spacing-xsmall: 0.3rem;
+    --spacing-small: 0.5rem;
+    --spacing-standard: 0.7rem;
+    --spacing-mid: 1rem;
+    --spacing-large: 1.6rem;
+
+    /* Borders */
+    --border-thin: 0.7px;
+    --border-standard: 1px;
+    --border-style-standard: solid;
+    --border-light-thin: var(--border-thin) var(--border-style-standard) var(--color-mid-dark);
+    --border-light-thick: var(--border-standard) var(--border-style-standard) var(--color-mid-dark);
+    --border-dark-thick: var(--border-standard) var(--border-style-standard) var(--color-primary-dark);
+    --border-rounded: 0.5rem;
+
+    /* Icons */
+    --icon-size: 1.25rem;
+
+    /* Buttons */
+    --button-padding: 0.5rem;
+
+    /* Animations */
+    --transition-delay-standard: 0.2s;
+  }
+  

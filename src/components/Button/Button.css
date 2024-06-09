@@ -1,0 +1,65 @@
+/** 
+ * BUTTON COMPONENT STYLING
+ * 
+ * This file contains the styling for a custom Button component.
+ */
+
+@import '../../styles/tokens.css';
+
+/* General Button styling */
+button {
+    margin-right: var(--spacing-xsmall);
+    padding: var(--spacing-xsmall);
+    border-radius: var(--border-rounded);
+    border-style: var(--border-style-standard);
+    cursor: pointer;
+}
+
+button .button-icon {
+    font-size: var(--icon-size);
+    vertical-align: middle;
+}
+
+button .button-text {
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-medium);
+    padding: var(--spacing-standard) var(--spacing-xsmall);
+    line-height: var(--spacing-large);
+}
+
+/* Button dark styling */
+.button-dark {
+    border: none;
+    background-color: var(--color-accent);
+    color: var(--color-primary-light);
+}
+
+.button-dark:hover {
+    background-color: var(--color-accent-light);
+    transition: var(--transition-delay-standard);
+}
+
+/* Button light styling */
+.button-light {
+    background-color: var(--color-primary-light);
+    color: var(--color-mid-dark);
+    border-color: var(--color-mid-dark);
+    border-width: var(--border-standard);
+}
+
+/* Button small styling */
+.button-small {
+    padding: 0.1rem var(--spacing-xsmall);
+    font-size: var(--font-size-small); 
+    line-height: 0;
+}
+
+.button-small .button-icon {
+    font-size: var(--font-size-medium);
+}
+
+.button-small .button-text {
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-small);
+}
