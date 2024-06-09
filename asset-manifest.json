@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/payworks/static/css/main.0becca98.css",
+    "main.js": "/payworks/static/js/main.5c98ffcc.js",
+    "index.html": "/payworks/index.html",
+    "main.0becca98.css.map": "/payworks/static/css/main.0becca98.css.map",
+    "main.5c98ffcc.js.map": "/payworks/static/js/main.5c98ffcc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0becca98.css",
+    "static/js/main.5c98ffcc.js"
+  ]
+}
