@@ -14,7 +14,7 @@ import Icons from './assets/icons';
 import './styles/global.css';
 
 function App() {
-  const filePath = '/data/pay-run.json';
+  const filePath = process.env.PUBLIC_URL + '/data/pay-run.json';
   const headers = getValues(invoiceColumns, 'header');
   const [invoiceGroups, setInvoiceGroups] = useState([]);
   const [suppliers, setSuppliers] = useState([]);
