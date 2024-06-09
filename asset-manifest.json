@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/payworks-deployed/static/css/main.0becca98.css",
-    "main.js": "/payworks-deployed/static/js/main.5c98ffcc.js",
+    "main.js": "/payworks-deployed/static/js/main.b4c18dc0.js",
     "index.html": "/payworks-deployed/index.html",
     "main.0becca98.css.map": "/payworks-deployed/static/css/main.0becca98.css.map",
-    "main.5c98ffcc.js.map": "/payworks-deployed/static/js/main.5c98ffcc.js.map"
+    "main.b4c18dc0.js.map": "/payworks-deployed/static/js/main.b4c18dc0.js.map"
   },
   "entrypoints": [
     "static/css/main.0becca98.css",
-    "static/js/main.5c98ffcc.js"
+    "static/js/main.b4c18dc0.js"
   ]
 }
