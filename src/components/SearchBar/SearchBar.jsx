@@ -13,6 +13,7 @@ export default function SearchBar( { label, className, buttonClassName } ) {
         <Button 
           text={label}
           icon={Icons.IoSearch}
+          label='Search'
           className={buttonClassName}
         />
         {/* Not implemented... */}

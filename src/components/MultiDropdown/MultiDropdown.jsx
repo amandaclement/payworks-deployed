@@ -26,6 +26,7 @@ export default function MultiDropdown( { label, options, className, buttonClassN
         text={label}
         icon={Icons.IoIosArrowDown}
         className={buttonClassName}
+        label='Dropdown arrow'
         onClick={toggleDropdown}
       />
       {isOpen && (

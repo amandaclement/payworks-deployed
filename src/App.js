@@ -151,12 +151,15 @@ function App() {
         <div id='edit-buttons-container'>
         <Button 
           icon={Icons.LuUndo2} 
+          label='Undo'
           className='button-dark'/>
         <Button 
           icon={Icons.LuRedo2}
+          label='Redo'
           className='button-dark'/>
         <Button 
           icon={Icons.FiSave}
+          label='Save'
           className='button-dark'/>
       </div>
 

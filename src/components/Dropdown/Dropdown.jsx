@@ -15,6 +15,7 @@ export default function Dropdown( { label, options, className, buttonClassName }
         <Button 
           text={label}
           icon={Icons.IoIosArrowDown}
+          label='Dropdown arrow'
           className={buttonClassName}
         />
         {/* Not implemented... */}
