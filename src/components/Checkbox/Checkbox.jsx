@@ -16,6 +16,7 @@ export default function Checkbox( { label, className, id, checked, onChange } ) 
         <div className={`checkbox-container ${className}`}>
           <input
             type='checkbox'
+            aria-label='Checkbox'
             id={id}
             checked={checked}
             onChange={handleChange}

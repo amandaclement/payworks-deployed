@@ -15,6 +15,7 @@ export default function TableRow( { rowId, row, excluded, onCheckboxChange } ) {
             <td>
                 {/* Row checkbox */}
                 <Checkbox 
+                    label=''
                     className='checkbox-dark'
                     id={`checkbox-${rowId}`}
                     checked={!excluded}
